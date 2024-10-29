@@ -1,0 +1,103 @@
+.stock-management-container {
+    background-color:#F8F9FA;
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.stock-header {
+    color: #2ecc71;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.summary-cards {
+    margin-bottom: 30px;
+}
+
+.summary-card {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #2ecc71;
+}
+
+.summary-card h3 {
+    color: #333333;
+    font-size: 24px;
+}
+
+.table-actions {
+    margin-bottom: 20px;
+}
+
+.action-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-col {
+    display: flex;
+    justify-content: center;
+}
+
+.search-input {
+    border-radius: 5px;
+    padding: 8px 10px;
+    width: 100%;
+}
+
+/* Updated Button Styles for consistent alignment */
+.action-buttons-right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.action-button {
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.add-product-button {
+    background-color: #2ecc71;
+    color: #ffffff;
+    border: none;
+}
+
+.add-product-button:hover {
+    background-color: #27ae60;
+}
+
+.table-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table-container th, .table-container td {
+    text-align: center;
+}
+
+.badge-success {
+    background-color: #2ecc71;
+    color: #ffffff;
+}
+
+.badge-danger {
+    background-color: #e74c3c;
+    color: #ffffff;
+}
